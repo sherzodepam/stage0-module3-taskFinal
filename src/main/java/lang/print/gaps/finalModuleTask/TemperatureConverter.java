@@ -4,6 +4,6 @@ import java.util.Scanner;
 
 public class TemperatureConverter {
     public void toFahrenheit(int temperatureCelsius){
-        System.out.println(temperatureCelsius*33.8);
+        System.out.println((temperatureCelsius*(9.0/5.0))+32.0);
     }
 }
